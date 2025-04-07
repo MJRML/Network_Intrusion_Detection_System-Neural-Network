@@ -1,1 +1,10 @@
 Capturing Malicious Network Traffic
+
+System infrastructure and requirements 
+
+Kali Linux is an open source, Debian-based Linux distribution geared towards various information security tasks, such as Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. [4]
+A prebuilt Kali Linux will be used to perform a DOS (denial of service) attack to a victim machine. To aim of this task is to target a victim target and have the network captured by a SIEM.
+The Kali Linux iso file will be downloaded from the official Kali Linux website https://www.kali.org/get-kali/#kali-virtual-machines and imported into Virtualbox.
+
+
+
