@@ -1,6 +1,6 @@
 # Integrating Network Intrusion Detection Systems and Neural Network with Tensoflow
 
-In this project, I will attempt to link a Network Intrsuions Detecion System and a Neural Network using Tensorflow to classify network activity
+In this project, I will attempt to link a Network Intrsuion Detecion System and a Neural Network using Tensorflow to classify network activity
 
 The aim of this project, is to link these two systems together, to develop an autonomous system where network traffic is captured using a Security Information and Event Manager system and this network traffic is then passed through a Neural Network which will output if the traffic captured is malicious or benign.
 
