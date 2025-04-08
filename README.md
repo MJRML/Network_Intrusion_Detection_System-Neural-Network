@@ -164,6 +164,10 @@ To make it easier on my machine and to speed up the process I will be using the 
 4.	Probe: surveillance and invasive methods to bypass security measures
 
 
+### Please check out my code in my files
+
+NIDS_Neutal_Network.py file
+
 
 
 
