@@ -8,6 +8,8 @@ The idea behind this project is develop a system that will lower the costs of ne
 
 I believe machine learning will have a major impact on security and how security is implemented in a company. The reason I decided on this project was a personal one, I worked in IT for a company which had a lot of clients, in this company there was a SOC department which monitored many external networks. This was a 24/7 operation and as a virtualization systems engineer, we would get calls at all hours from this team. Then I started to wonder why are they there at this time, is technology not advanced enough to have autonomous systems, could they not check a report or a confusion matrix in the morning instead of working 24/7. How accurate would a neural network algorithm be monitoring alerts? Is it trust worthy? Would the company benefit financially from this?
 
+Please Note I had issues with the Solarwinds registering any Network traffic and as it's a trial, I did not have support from Solarwinds
+
 
 # Project Overview
 
