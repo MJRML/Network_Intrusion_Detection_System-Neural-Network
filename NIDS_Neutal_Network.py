@@ -261,19 +261,19 @@ tf.keras.utils.plot_model(shallow_model, to_file="shallow_model.png", show_shape
 history = shallow_model.fit(X_train, Y_train.values.ravel(), epochs=10, batch_size=32)
 
 #This is a deeper model - which has more a lot more hidden layers
-deep_model = Sequential([
-    Dense(1024, input_dim=30, activation='relu'),
-    Dropout(0.01),
-    Dense(768, activation='relu'),
-    Dropout(0.01),
-    Dense(512, activation='relu'),
-    Dropout(0.01),
-    Dense(256, activation='relu'),
-    Dropout(0.01),
-    Dense(128, activation='relu'),
-    Dropout(0.01),
-    Dense(5, activation='softmax')
-])
+#deep_model = Sequential([
+#   Dense(1024, input_dim=30, activation='relu'),
+#   Dropout(0.01),
+#   Dense(768, activation='relu'),
+#   Dropout(0.01),
+#   Dense(512, activation='relu'),
+#   Dropout(0.01),
+#   Dense(256, activation='relu'),
+#   Dropout(0.01),
+#   Dense(128, activation='relu'),
+#   Dropout(0.01),
+#   Dense(5, activation='softmax')
+#])
 
 deep_model.compile(loss="sparse_categorical_crossentropy",
                    optimizer="adam",
