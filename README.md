@@ -168,6 +168,8 @@ To make it easier on my machine and to speed up the process I will be using the 
 
 ### Please check out my code in my files
 
+Please not that this code was run using google colab as it has a lot of records and if you comment out the deep Neural Network model, it will take 15-20 minutes to run
+
 NIDS_Neutal_Network.py file
 
 
