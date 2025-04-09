@@ -127,13 +127,15 @@ bar_g("target")
 
 df.columns #printing the columns in our dataframe
 
-#drop columns with NaN - as out dataset is so big we can afford to just remove NaN values
+df.isnull().sum() #calculating null values in the dataset
+
+#drop columns with NaN - as our dataset is so big we can afford to just remove NaN values - 2 columns had NaN data
 df = df.dropna("columns")
 
 #Kepp columns where there are more than 1 unique values
 df = df[[col for col in df if df[col].nunique() > 1 ]]
 
-#getting the dadatsets correlation between varibales - any extremely high independent variables correlated with each other or with Y class 'attack types' eill need to assessed and removed
+#getting the datasets correlation between varibales - any extremely high independent variables correlated with each other or with Y class 'attack types' will need to assessed and removed
 #If correlation is low and would not add any value to the Y (target) varibale - we can remove
 corr = df.corr
 
