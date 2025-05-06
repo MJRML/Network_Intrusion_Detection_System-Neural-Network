@@ -1,16 +1,32 @@
 # Integrating Network Intrusion Detection Systems and Neural Network with Tensoflow
 
-A full report is added to my files above
+## Project Title:
+Integrating a Neural Network with a Network Intrusion Detection System Using TensorFlow
 
-In this project, I will attempt to link a Network Intrsuion Detecion System and a Neural Network using Tensorflow to classify network activity
+## Project Overview:
+This project explores the integration of a Neural Network with a Network Intrusion Detection System (NIDS) to classify network activity as either malicious or benign. The system is designed to capture real-time network traffic through a Security Information and Event Management (SIEM) platform and analyze this data using a machine learning model built with TensorFlow.
 
-The aim of this project, is to link these two systems together, to develop an autonomous system where network traffic is captured using a Security Information and Event Manager system and this network traffic is then passed through a Neural Network which will output if the traffic captured is malicious or benign.
+## Objective:
+The primary goal is to develop a semi-autonomous system that enhances cybersecurity monitoring by reducing the need for continuous human oversight. By leveraging machine learning, the system aims to detect threats with a high degree of accuracy and reliability, ultimately reducing operational costs and improving response times for organizations.
 
-The idea behind this project is develop a system that will lower the costs of network security for organizations and provide a high level of sophistication and accuracy when dealing with network security.
+## Motivation:
+My interest in this project stems from a personal experience while working as a Virtualization Systems Engineer in an IT company with a large client base. The Security Operations Center (SOC) team monitored external networks 24/7, and we frequently received calls during off-hours to assist with issues. This raised questions for me:
 
-I believe machine learning will have a major impact on security and how security is implemented in a company. The reason I decided on this project was a personal one, I worked in IT for a company which had a lot of clients, in this company there was a SOC department which monitored many external networks. This was a 24/7 operation and as a virtualization systems engineer, we would get calls at all hours from this team. Then I started to wonder why are they there at this time, is technology not advanced enough to have autonomous systems, could they not check a report or a confusion matrix in the morning instead of working 24/7. How accurate would a neural network algorithm be monitoring alerts? Is it trust worthy? Would the company benefit financially from this?
+- Why is continuous human monitoring still necessary in an age of automation?
 
-Please Note I had issues with the Solarwinds registering any Network traffic and as it's a trial, I did not have support from Solarwinds
+- Could a machine learning model reduce the workload or even replace some of these roles?
+
+- Would organizations benefit financially from such a system?
+
+- Can we trust neural networks with critical security tasks?
+
+- These questions inspired me to explore the potential of using neural networks for intrusion detection and network threat classification.
+
+## Challenges:
+During development, I encountered limitations with the SolarWinds platform. As the trial version did not register any network traffic and came without support, it restricted my ability to fully simulate real-world scenarios. This highlighted the importance of access to robust tools and support when developing security-focused systems.
+
+Conclusion:
+This project represents a step toward intelligent, automated cybersecurity solutions. While still a work in progress, it demonstrates the potential of integrating machine learning with existing network monitoring infrastructure to create smarter, more cost-effective defenses against cyber threats.
 
 
 # Project Overview
@@ -170,7 +186,8 @@ To make it easier on my machine and to speed up the process I will be using the 
 
 Please not that this code was run using google colab as it has a lot of records and if you comment out the deep Neural Network model, it will take 15-20 minutes to run
 
-NIDS_Neutal_Network.py file
+- [Network Intrusion Detection TensorFlow](NIDS_Neutal_Network.py)
+
 
 
 
