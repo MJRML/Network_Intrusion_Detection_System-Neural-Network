@@ -137,25 +137,25 @@ The attack was successful. This attack would not register on the Solarwinds secu
 
 ## TensorFlow and Keras
 
-To show how our Neural Network would classify Network activity if the SEM worked, I will be building a Neural Network using the kkpcupp.data_10_percent.gz dataset
+To demonstrate how our Neural Network would classify network activity in a functional Security Event Management (SEM) system, I will develop a neural network model using the kkpcupp.data_10_percent.gz dataset.
 
-This database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.
+This dataset is a widely recognized benchmark for intrusion detection research. It simulates a broad range of cyber-attacks within a military network environment, making it well-suited for evaluating the performance of classification models in network security contexts.
 
-I will build a Neural Network using this dataset to classify the Network activity, as this dataset has a large number of data entrys, I will be using google colab to run my model using GPU's.
+Given the large volume of data in this dataset, I will utilize Google Colab to train the model, leveraging GPU acceleration for improved computational efficiency.
 
-In my coling example I will be using Tensorflow and Keras, which is a high-level API integrated with Tensorflow
+For the implementation, I will use TensorFlow and Keras, with Keras serving as the high-level API integrated within TensorFlow. Keras offers a user-friendly, productive interface for developing deep learning models. It supports the entire machine learning workflow — from data preprocessing and model construction to training, tuning, and deployment — and is designed to enable rapid experimentation.
 
-Keras is the high level API of the TensorFlow platform. It provides an approachable, highly-productive interface for solving machine learning problems, with a focus on modern deep learning. Keras covers every step of machine learning workflow, from dta processing to hyperparameter tuning to deployment. It was developed with a focus on enabling fast experimentation.
+In this project, I will build a Sequential model, which is the simplest type of neural network in Keras. It consists of a linear stack of layers, primarily using Dense (fully connected) layers for classification.
 
-A model is an object that groups layers together and that can be trained on data. The simplest type of model is the Sequential model, which is a linear stack of layers. Sequential model uses the Dense layer to build the model
+The model will be developed using the tf.keras.Model class, which includes built-in methods for training and evaluation:
 
-The tf.keras.Model class features built-in training and evaluation models that are used through this project:
+model.fit(): Trains the model for a specified number of epochs.
 
--Tf.keras.Model.fit: Trains the model for a fixed number of epochs.
+model.predict(): Generates output predictions for the given input samples.
 
--Tf.keras.Model.predict: Generates output predictions for the input samples.
+model.evaluate(): Computes loss and evaluation metrics as configured via model.compile().
 
--Tf.keras.Model.evaluate: Returns the loss and metrics values for the model, configured via the tf.keras.Model.compile method 
+This approach will allow us to simulate how the SEM might classify various types of network activity, including potential intrusions, using a deep learning framework.
 
 
 ## Neural Network - Tensforlow
